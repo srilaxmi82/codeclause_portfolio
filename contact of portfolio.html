@@ -1,0 +1,81 @@
+<html>
+<style>
+
+
+body{
+    background-color: antiquewhite;
+}
+    h1{
+        padding: 30px;
+    }
+
+    .container{
+    position: absolute;
+    padding-left: 900px;
+    margin: 20px;
+    width: auto;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: none;
+}
+
+.topnav a{
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover{
+    background-color: aqua;
+    color: brown;
+}
+
+form{
+    padding: 30px;
+}
+</style>
+<body>
+    <section id="contact me"></section>
+    <h1 class="text-center">contact Me</h1>
+
+    <div class="container">
+        <div class="topnav">
+            <a href="portfoliohome.html">HOME</a>
+            <a href="about of portfolio.html">ABOUT</a>
+            <a href="contact of portfolio.html">CONTACT</a>
+        </div>
+    
+   </div>
+
+<section class="form">
+    <form action="/form/submit" method="POST">
+        <label for="name">Name</label>
+<input type="text" id="name" name="name" placeholder="Type your name"><br><br>
+
+<label for="mail">E-mail Address</label>
+<input type="text" id="mail" name="e-mail" placeholder="Type your e-mail"><br><br>
+
+<label for="subject">Subject</label>
+<input type="text" id="message" name="message" placeholder="Message"><br><br>
+
+<label for="Project Details">Project details</label>
+<textarea id="project details" name="project details" placeholder="project details"></textarea><br><br>
+
+<input type="submit" value="Contact me">
+
+    </form>
+
+</section>
+
+    
+
+
+
+</body>
+
+</html>
